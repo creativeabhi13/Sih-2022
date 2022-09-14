@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "458981029095",
+    "project_id": "swap-dc3d9",
+    "storage_bucket": "swap-dc3d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458981029095:android:5af706ca6096195d7f1e42",
+        "android_client_info": {
+          "package_name": "com.swap.portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458981029095-5n7ij5cj3bv42oej3edne0opti26clcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSth-7sLICa3vRFGRgo3f6JxqORZXpBPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458981029095-5n7ij5cj3bv42oej3edne0opti26clcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
