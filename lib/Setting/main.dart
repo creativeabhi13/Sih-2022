@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:swaps/pages/Setting_page.dart';
-import 'package:swaps/pages/home_page.dart';
-import 'package:swaps/pages/Account_page.dart';
-import 'package:swaps/pages/test_page.dart';
+
 import 'package:firebase_core/firebase_core.dart';
+
+import 'Account_Page.dart';
+import 'Setting_page.dart';
+import 'home_page.dart';
 
 
 void main() async {
@@ -25,8 +26,8 @@ class MyApp extends StatelessWidget {
       routes: {
         "/":(context)=>Homepage(),
         "/h":(context)=>SettingPage(),
-        "/a":(context)=>AccountPage(),
-        "/t":(context)=>testPage()
+        "/a":(context)=>AccountPage()
+
       },
     );
   }

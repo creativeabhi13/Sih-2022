@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:swaps/pages/Setting_page.dart';
-import 'package:swaps/pages/mycomplaint.dart';
-import 'package:swaps/pages/test_page.dart';
+
+
+import '../Dashboard.dart';
+import 'Setting_page.dart';
 
 class Homepage extends StatelessWidget {
   @override
@@ -21,12 +22,12 @@ class Homepage extends StatelessWidget {
                   SizedBox(
                     height: 20,
                   ),
-                  ElevatedButton(onPressed:() {
-                    Navigator.push(context, MaterialPageRoute(
-                        builder: (context)=>testPage(),
-                    ));
-
-                  }, child: Text('test')),
+                  // ElevatedButton(onPressed:() {
+                  //   Navigator.push(context, MaterialPageRoute(
+                  //       builder: (context)=>testPage(),
+                  //   ));
+                  //
+                  // }, child: Text('test')),
 
                   ElevatedButton(onPressed:() {
                     Navigator.push(context, MaterialPageRoute(

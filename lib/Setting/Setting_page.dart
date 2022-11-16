@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:swaps/pages/Account_page.dart';
+
+
+import 'Account_Page.dart';
 
 
 class SettingPage extends StatefulWidget {
@@ -23,7 +25,7 @@ class _SettingPageState extends State<SettingPage> {
               color: Colors.blueAccent),
         ),
       ),  body: Container(
-        padding: EdgeInsets.only(left:30,toQp:20,right:25),
+        padding: EdgeInsets.only(left:30,top:20,right:25),
         child: ListView(
             children: [
               Text(
@@ -71,7 +73,7 @@ class _SettingPageState extends State<SettingPage> {
                                   Text("option 3"),
                                 ],),
                               actions: [
-                                FlatButton(onPressed: (){
+                               ElevatedButton(onPressed: (){
                                   Navigator.of(context).pop();
                                 }, child: Text("close")),
                               ],
@@ -105,7 +107,7 @@ class _SettingPageState extends State<SettingPage> {
                                   Text("option 3"),
                                 ],),
                               actions: [
-                                FlatButton(onPressed: (){
+                              ElevatedButton(onPressed: (){
                                   Navigator.of(context).pop();
                                 }, child: Text("close")),
                               ],
@@ -138,7 +140,7 @@ class _SettingPageState extends State<SettingPage> {
                                   Text("option 3"),
                                 ],),
                               actions: [
-                                FlatButton(onPressed: (){
+                               ElevatedButton(onPressed: (){
                                   Navigator.of(context).pop();
                                 }, child: Text("close")),
                               ],
@@ -171,7 +173,7 @@ class _SettingPageState extends State<SettingPage> {
                                   Text("option 3"),
                                 ],),
                               actions: [
-                                FlatButton(onPressed: (){
+                               ElevatedButton(onPressed: (){
                                   Navigator.of(context).pop();
                                 }, child: Text("close")),
                               ],
@@ -204,8 +206,9 @@ class _SettingPageState extends State<SettingPage> {
                                   Text("option 2"),
                                   Text("option 3"),
                                 ],),
-                              actions: [
-                                FlatButton(onPressed: (){
+                              actions:
+                              [
+                               ElevatedButton(onPressed: (){
                                   Navigator.of(context).pop();
                                 }, child: Text("close")),
                               ],
@@ -217,7 +220,8 @@ class _SettingPageState extends State<SettingPage> {
                   )
               ),
 
-              //********* Additional Setting*********  Text("Additional Settings",style: TextStyle(
+              //********* Additional Setting*********
+      Text("Additional Settings",style: TextStyle(
                 fontSize: 28.0,
                 fontWeight: FontWeight.w500,
                 color: Colors.white,
@@ -233,7 +237,7 @@ class _SettingPageState extends State<SettingPage> {
                 onChanged: (val){},
               ),
 
-//********Recieved Notification*****
+//******** Recieved Notification*****
               const SizedBox(height: 10,),
               SwitchListTile(
                 dense: true,
@@ -260,3 +264,6 @@ class _SettingPageState extends State<SettingPage> {
     );
   }
 }
+
+
+

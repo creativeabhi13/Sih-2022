@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:swaps/pages/Setting_page.dart';
+
+
+import 'Setting_page.dart';
 class AccountPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
